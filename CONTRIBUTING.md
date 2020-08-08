@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via Pull Requests on [Github](https://github.com/getpop/graphql-endpoint-for-wp).
+We accept contributions via Pull Requests on [Github](https://github.com/graphql-by-pop/graphql-endpoint-for-wp).
 
 
 ## Pull Requests

@@ -17,7 +17,7 @@ Add pretty permalinks for the PoP API endpoints, for WordPress
 Via Composer
 
 ``` bash
-composer require getpop/graphql-endpoint-for-wp
+composer require graphql-by-pop/graphql-endpoint-for-wp
 ```
 
 ## Usage
@@ -61,17 +61,17 @@ If you discover any security related issues, please email leo@getpop.org instead
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/getpop/graphql-endpoint-for-wp.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/graphql-by-pop/graphql-endpoint-for-wp.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/getpop/graphql-endpoint-for-wp/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/graphql-endpoint-for-wp.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/graphql-endpoint-for-wp.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/getpop/graphql-endpoint-for-wp.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/graphql-by-pop/graphql-endpoint-for-wp/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/graphql-by-pop/graphql-endpoint-for-wp.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/graphql-by-pop/graphql-endpoint-for-wp.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/graphql-by-pop/graphql-endpoint-for-wp.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/getpop/graphql-endpoint-for-wp
-[link-travis]: https://travis-ci.org/getpop/graphql-endpoint-for-wp
-[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/graphql-endpoint-for-wp/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/getpop/graphql-endpoint-for-wp
-[link-downloads]: https://packagist.org/packages/getpop/graphql-endpoint-for-wp
+[link-packagist]: https://packagist.org/packages/graphql-by-pop/graphql-endpoint-for-wp
+[link-travis]: https://travis-ci.org/graphql-by-pop/graphql-endpoint-for-wp
+[link-scrutinizer]: https://scrutinizer-ci.com/g/graphql-by-pop/graphql-endpoint-for-wp/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/graphql-by-pop/graphql-endpoint-for-wp
+[link-downloads]: https://packagist.org/packages/graphql-by-pop/graphql-endpoint-for-wp
 [link-author]: https://github.com/getpop
 [link-contributors]: ../../contributors

@@ -1,5 +1,5 @@
 {
-    "name": "getpop/graphql-endpoint-for-wp",
+    "name": "graphql-by-pop/graphql-endpoint-for-wp",
     "type": "library",
     "description": "Add pretty permalinks for the single GraphQL endpoint, for WordPress",
     "keywords": [
