@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace PoP\GraphQLEndpointForWP\EndpointHandlers;
+namespace GraphQLByPoP\GraphQLEndpointForWP\EndpointHandlers;
 
 use PoP\APIEndpointsForWP\EndpointHandlers\AbstractEndpointHandler;
-use PoP\GraphQLEndpointForWP\ComponentConfiguration;
+use GraphQLByPoP\GraphQLEndpointForWP\ComponentConfiguration;
 
 class GraphQLEndpointHandler extends AbstractEndpointHandler
 {

@@ -35,12 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\GraphQLEndpointForWP\\": "src"
+            "GraphQLByPoP\\GraphQLEndpointForWP\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\GraphQLEndpointForWP\\": "tests"
+            "GraphQLByPoP\\GraphQLEndpointForWP\\": "tests"
         }
     },
     "scripts": {

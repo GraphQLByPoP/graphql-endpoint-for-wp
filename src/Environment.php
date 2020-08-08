@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PoP\GraphQLEndpointForWP;
+namespace GraphQLByPoP\GraphQLEndpointForWP;
 
 class Environment
 {
