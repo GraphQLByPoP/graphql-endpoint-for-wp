@@ -6,6 +6,7 @@ namespace GraphQLByPoP\GraphQLEndpointForWP\EndpointHandlers;
 
 use PoP\APIEndpointsForWP\EndpointHandlers\AbstractEndpointHandler;
 use GraphQLByPoP\GraphQLEndpointForWP\ComponentConfiguration;
+use PoP\API\Response\Schemes as APISchemes;
 
 class GraphQLEndpointHandler extends AbstractEndpointHandler
 {
@@ -52,7 +53,7 @@ class GraphQLEndpointHandler extends AbstractEndpointHandler
     protected function executeEndpoint(): void
     {
         // Set the params on the request, to emulate that they were added by the user
-        $_REQUEST[\GD_URLPARAM_SCHEME] = \POP_SCHEME_API;
+        $_REQUEST[\GD_URLPARAM_SCHEME] = APISchemes::API;
         // Include qualified namespace here (instead of `use`) since we do didn't know if component is installed
         $_REQUEST[\GD_URLPARAM_DATASTRUCTURE] = \PoP\GraphQLAPI\DataStructureFormatters\GraphQLDataStructureFormatter::getName();
         // Enable hooks
