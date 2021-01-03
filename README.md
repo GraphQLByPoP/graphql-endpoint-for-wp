@@ -20,6 +20,10 @@ Via Composer
 composer require graphql-by-pop/graphql-endpoint-for-wp
 ```
 
+## Development
+
+The source code is hosted on the [PoP monorepo](https://github.com/leoloso/PoP), under [`GraphQLByPoP/packages/graphql-endpoint-for-wp`](https://github.com/leoloso/PoP/tree/master/layers/GraphQLByPoP/packages/graphql-endpoint-for-wp).
+
 ## Usage
 
 Initialize the component:
@@ -46,7 +50,7 @@ Same as the [Supported PHP features for `getpop/root`](https://github.com/getpop
 Via [Rector](https://github.com/rectorphp/rector) (dry-run mode):
 
 ```bash
-composer downgrade-code
+composer preview-code-downgrade
 ```
 
 ## Standards
@@ -93,4 +97,4 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-code-quality]: https://scrutinizer-ci.com/g/graphql-by-pop/graphql-endpoint-for-wp
 [link-downloads]: https://packagist.org/packages/graphql-by-pop/graphql-endpoint-for-wp
 [link-author]: https://github.com/getpop
-[link-contributors]: ../../contributors
+[link-contributors]: ../../../../../../contributors

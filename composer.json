@@ -2,10 +2,7 @@
     "name": "graphql-by-pop/graphql-endpoint-for-wp",
     "type": "library",
     "description": "Add pretty permalinks for the single GraphQL endpoint, for WordPress",
-    "keywords": [
-        "PoP",
-        "graphql-endpoint-for-wp"
-    ],
+    "keywords": ["PoP", "graphql-endpoint-for-wp"],
     "homepage": "https://github.com/GraphQLByPoP/graphql-endpoint-for-wp",
     "license": "MIT",
     "authors": [
@@ -30,7 +27,7 @@
     },
     "require-dev": {
         "phpunit/phpunit": ">=9.3",
-        "rector/rector": "^0.8.17",
+        "rector/rector": "^0.9",
         "squizlabs/php_codesniffer": "^3.0",
         "szepeviktor/phpstan-wordpress": "^0.6.2",
         "johnpbloch/wordpress": ">=5.5"
@@ -50,7 +47,7 @@
         "check-style": "phpcs src tests",
         "fix-style": "phpcbf src tests",
         "analyse": "phpstan analyse -c phpstan.neon.dist",
-        "downgrade-code": "rector process --dry-run --ansi"
+        "preview-code-downgrade": "rector process --dry-run --ansi"
     },
     "extra": {
         "wordpress-install-dir": "vendor/wordpress/wordpress",
