@@ -4,20 +4,20 @@ declare(strict_types=1);
 
 namespace GraphQLByPoP\GraphQLEndpointForWP\EndpointHandlers;
 
-use Symfony\Contracts\Service\Attribute\Required;
 use GraphQLByPoP\GraphQLEndpointForWP\ComponentConfiguration;
 use PoP\API\Response\Schemes as APISchemes;
 use PoP\APIEndpointsForWP\EndpointHandlers\AbstractEndpointHandler;
 use PoP\ComponentModel\Constants\Params;
 use PoP\GraphQLAPI\Component;
 use PoP\GraphQLAPI\DataStructureFormatters\GraphQLDataStructureFormatter;
+use Symfony\Contracts\Service\Attribute\Required;
 
 class GraphQLEndpointHandler extends AbstractEndpointHandler
 {
     protected GraphQLDataStructureFormatter $graphQLDataStructureFormatter;
 
     #[Required]
-    public function autowireGraphQLEndpointHandler(GraphQLDataStructureFormatter $graphQLDataStructureFormatter): void
+    final public function autowireGraphQLEndpointHandler(GraphQLDataStructureFormatter $graphQLDataStructureFormatter): void
     {
         $this->graphQLDataStructureFormatter = $graphQLDataStructureFormatter;
     }
