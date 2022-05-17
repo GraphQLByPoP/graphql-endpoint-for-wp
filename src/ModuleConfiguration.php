@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace GraphQLByPoP\GraphQLEndpointForWP;
 
-use PoP\Root\Component\AbstractComponentConfiguration;
+use PoP\Root\Module\AbstractModuleConfiguration;
 use PoPAPI\APIEndpoints\EndpointUtils;
-use PoP\Root\Component\EnvironmentValueHelpers;
+use PoP\Root\Module\EnvironmentValueHelpers;
 
-class ComponentConfiguration extends AbstractComponentConfiguration
+class ModuleConfiguration extends AbstractModuleConfiguration
 {
     public function isGraphQLAPIEndpointDisabled(): bool
     {
